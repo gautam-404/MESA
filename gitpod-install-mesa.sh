@@ -40,6 +40,7 @@ set_env_var()
     echo "source $DIR/mesasdk/bin/mesasdk_init.sh" >> ~/.zshrc
     echo "export MESA_DIR=$DIR/mesa-r15140" >> ~/.zshrc
     echo "export OMP_NUM_THREADS=2" >> ~/.zshrc
+    echo "export GYRE_DIR=$MESA_DIR/gyre/gyre" >> ~/.zshrc
     source ~/.zshrc
 
 if [ -d "$DIR/mesasdk" ] && [ -d "$DIR/mesa-r15140" ];

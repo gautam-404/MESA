@@ -10,6 +10,7 @@ echo "export MESASDK_ROOT=$DIR/mesasdk" >> ~/.zshenv
 echo "source $DIR/mesasdk/bin/mesasdk_init.sh" >> ~/.zshenv
 echo "export MESA_DIR=$DIR/mesa-r15140" >> ~/.zshenv
 echo "export OMP_NUM_THREADS=2" >> ~/.zshenv
+echo "export GYRE_DIR=$MESA_DIR/gyre/gyre" >> ~/.zshenv
 
 if [ ! -d "$DIR" ]
 then
